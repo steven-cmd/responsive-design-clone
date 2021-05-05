@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+ul {
+  color: white;
+  position: fixed;
+  width: 100%;
+  background-color: #212529;
+  margin-top: 72px;
+  top: 0;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+}
+
+header {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 518px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  background-color: #212529;
+  height: 72px;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.logo {
+  width: 140px;
+}
+
+button {
+  background-color: #fed136;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.menu-button {
+  width: 80px;
+  height: 36.5px;
+}
+
+.tell-me-button {
+  width: 224px;
+  height: 69px;
+  padding: 20px, 40px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.invisible-links {
+  visibility: hidden;
+}
+
+.welcome-text {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.meet-text {
+  font-size: 52px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px 90px 32px 90px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+
+@media (min-width: 725px) {
+  .welcome-text {
+    font-size: 36px;
+  }
+
+  .meet-text {
+    font-size: 72px;
+    margin: 0px 0px 32px 0px;
+  }
+
+  header {
+    height: 100%;
+  }
+}
