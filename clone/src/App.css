@@ -23,6 +23,10 @@ li {
   margin-bottom: 20px;
 }
 
+li:hover {
+  color: #fed136;
+}
+
 p {
   color: white;
 }
@@ -118,10 +122,56 @@ button {
 
   .meet-text {
     font-size: 72px;
-    margin: 0px 0px 32px 0px;
+    margin: 0px 0px 64px 0px;
   }
 
   header {
     height: 100%;
   }
 }
+
+@media (min-width: 1000px) {
+  .menu-button {
+    visibility: hidden;
+  }
+
+  #links {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    background-color: transparent;
+    height: 94px;
+    justify-content: flex-end;
+    position: static;
+  }
+
+  li {
+    margin: 20px;
+  }
+
+  ul {
+    width: auto;
+  }
+
+  .nav {
+    background-color: transparent;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+  }
+
+  .logo {
+    width: 188px;
+  }
+
+  .header-container {
+    width: auto;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+  }
+} ;

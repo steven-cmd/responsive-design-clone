@@ -5,7 +5,9 @@ import Header from "./components/Header";
 function App() {
   return (
     <div>
-      <Nav />
+      <div className="nav-container">
+        <Nav />
+      </div>
       <Header />
     </div>
   );

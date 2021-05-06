@@ -28,7 +28,7 @@ class Nav extends Component {
             MENU &#9776;
           </button>
         </div>
-        <ul className={this.state.openMenu ? "" : "invisible-links"}>
+        <ul id="links" className={this.state.openMenu ? "" : "invisible-links"}>
           <li>
             <a>SERVICES</a>
           </li>
