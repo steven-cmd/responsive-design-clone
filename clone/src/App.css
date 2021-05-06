@@ -17,6 +17,9 @@ ul {
   top: 0;
   padding-left: 30px;
   list-style-type: none;
+  transition: all 0.3s ease-in;
+  overflow: hidden;
+  height: 0;
 }
 
 li {
@@ -89,8 +92,9 @@ button {
   font-weight: 900;
 }
 
-.invisible-links {
-  visibility: hidden;
+.visible-links {
+  height: 190px;
+  transition: all 0.3s ease-in;
 }
 
 .welcome-text {
@@ -128,6 +132,10 @@ button {
   header {
     height: 100%;
   }
+
+  ul {
+    transition: none;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -164,6 +172,7 @@ button {
 
   .logo {
     width: 188px;
+    transition: all 0.3s ease-in-out;
   }
 
   .header-container {
